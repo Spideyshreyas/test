@@ -1,0 +1,18 @@
+students=[
+    {"name":"john doe",
+     "father name":"robert doe",
+     "address":"123 hall street",
+    },
+    {"name":"rahul garg",
+     "father name":"kamal garg",
+     "address":"3 upper street corner",   
+    },
+    {"name":"angela steve",
+    "father name":"jacob steve",
+    "address":"unknown"}
+]
+print(list(map(lambda student:student['name'],students)))
+print(list(map(lambda student:student['address'],students)))
+arr=[2,4,6,8]
+arr=list(map(lambda x:x*x,arr))
+print(arr)
